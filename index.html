@@ -1,81 +1,94 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      media="(max-width: 767px)"
-      href="css/estilo-celular.css"
-    />
-    <link
-      rel="stylesheet"
-      media="(min-width: 768px) and (max-width: 1023px)"
-      href="css/estilo-tablet.css"
-    />
-    <link
-      rel="stylesheet"
-      media="(min-width: 1024px)"
-      href="css/estilo-pc.css"
-    />
-    <!-- <link rel="stylesheet" href="/css/style.css"> -->
-    <link rel="stylesheet" href="/css/hamburger.css" />
-    <title>TradersBots</title>
-  </head>
 
-  <body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="app.js" defer></script>
+  <title>TradersBots</title>
+</head>
+
+<body>
+  
+  <header class="header">
+    <nav class="nav">
+      <a href=""><img class="logo" src="assets/logo-sf.png" alt=""></a>
+      <button class="hamburger"></button>
+        <ul class="nav-list">
+          <li><a href="">Sobre</a></li>
+          <li><a href="">Projetos</a></li>
+          <li><a href="">Contato</a></li>
+        </ul>
+    </nav>
+  </header>
+
+
+  <!-- <video autoplay loop class="video">
+    <source src="assets/video.mp4" type="video/mp4">
+  </video> -->
+
+  <main>
+      
     <div class="initial">
-      <header>
-          <div class="logo">
-            <img src="assets/logo-sf.png" alt="logo-traders-bots" />
-          </div>
-      </header>
-      <div class="pagina-inicial">
-        <h1>Bem-vindo à TradersBots</h1>
-        <br/>
-        <p>sua parceira em inovaçãofinanceira.</p>
-        <p>
-          Desenvolvemos soluções tecnológicas de ponta para impulsionar seu
-          sucesso no mercado financeiro.
-        </p>
-      </div>
-      <div class="custom-shape-divider-bottom-1701300894">
-        <svg
-          data-name="Layer 1"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 1200 120"
-          preserveAspectRatio="none"
-        >
-          <path
-            d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
-            class="shape-fill"
-          ></path>
-        </svg>
-      </div>
+
+      <h1>Bem-vindo à <strong style="color: #3adf6c;">TradersBots</strong></h1>
+      <p>Sua parceira em inovação financeira.</p>
+      <p>
+        Desenvolvemos soluções tecnológicas de ponta para impulsionar <br> seu
+        sucesso no mercado financeiro.
+      </p>
+      <p>
+        Dê adeus ás decições impulsivas! Automatize suas operações
+      </p>
+
+    <!-- divisor -->
+
+    <!-- divisor -->
     </div>
-    <main>
-      <div class="container">
-        <h2>
-          Ciência, Tecnologia, Inteligência Artificial e
-          <strong>Performance</strong>
-        </h2>
-        <p>
-          Temos uma equipe especializada, responsável por desenvolver as
-          melhores estratégias quantitativas e realizar todos os estudos
-          necessários para garantir uma boa probabilidade de ganho.
-        </p>
-        <p>
-          Além disso, nossa equipe trabalha para criar uma estratégia capaz de
-          proteger o patrimônio dos investidores das crises.
-        </p>
-      </div>
-    </main>
-  </body>
+
+
+
+    <div class="main-container">
+
+      <section class="sec-01">
+        <div class="text-sec01">
+          <h2>
+            Ciência, Tecnologia, Inteligência Artificial e
+            <strong style="color: #03af37;">Performance</strong>
+          </h2>
+          <p>
+            Temos uma equipe especializada, responsável por desenvolver as
+            melhores estratégias quantitativas e realizar todos os estudos
+            necessários para garantir uma boa probabilidade de ganho.
+          </p>
+          <p>
+            Além disso, nossa equipe trabalha para criar uma estratégia capaz de
+            proteger o patrimônio dos investidores das crises.
+          </p>
+        </div>
+
+        <div class="img-container-sec01"><img src="assets/img-sec01.jpg" id="img-sec01" alt="grafico de investimentos"></div>
+        
+      </section>
+
+      <section class="sec-02">
+
+      </section>
+
+
+    </div>
+
+  </main>
+
+
+
+  <footer>
+  </footer>
+</body>
+
 </html>
