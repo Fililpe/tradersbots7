@@ -150,7 +150,10 @@ strong {
 
 .sec-01,
 .sec-02,
-.sec-03 {
+.sec-03,
+.sec-05,
+.sec-06,
+.sec-07 {
   display: flex;
   flex-direction: row;
   background-color: #fff;
@@ -161,6 +164,10 @@ strong {
 
   margin: auto;
   max-width: 1300px;
+}
+
+.sec-07 {
+  border-radius: 0px 0px 8px 8px;
 }
 
 .sec-02 {
@@ -207,6 +214,25 @@ strong {
   align-items: center;
 }
 
+.sec-04 h1{
+  font-size: 2.5rem;
+}
+
+.planos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+
+  padding-block: 50px;
+}
+
+.card, .card-no-wrap{
+  margin: auto;
+  padding-block: 15px;
+}
 
 
 .footer-container{
