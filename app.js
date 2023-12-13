@@ -16,15 +16,3 @@ window.addEventListener("scroll", () => {
     }
   });
 
-//   window.addEventListener("scroll", () => {
-//     const header = document.querySelector(".header");
-//     const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
-  
-//     if (currentScroll > lastScrollTop) {
-//       header.classList.add("nav-fixed");
-//     } else {
-//       header.classList.remove("nav-fixed");
-//     }
-  
-//     lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
-//   });

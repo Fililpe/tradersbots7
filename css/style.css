@@ -163,10 +163,6 @@ strong {
   max-width: 1300px;
 }
 
-.sec-07 {
-  border-radius: 0px 0px 8px 8px;
-}
-
 .sec-02 {
   flex-direction: row-reverse;
   border-radius: 0px 0px 8px 8px;
@@ -247,31 +243,63 @@ strong {
   border-radius: 8px;
 }
 
+.sec-05 h1 {
+  font-size: 2.5rem;
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+
 .inner-profit,  .inner-meta{
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1.5rem;
+  padding: 50px;
 }
 
 .wrap-profit, .wrap-meta{
   display: flex;
   align-items: center;
   gap: 1.5rem;
+
 }
 
 #profit {
-  width: 30%;
+  width: 40vh;
 }
 #profit-pc{
-  width: 50%;
+  width: 40%;
 }
 #meta {
-  width: 25%;
+  width: 30vh;
 }
 #meta-pc {
-  width: 50%;
+  width: 40%;
 }
+
+.sec-07 {
+  display: flex;
+  max-width: 1300px;
+  margin: auto;
+  padding: 50px;
+}
+
+.sec-07 h1{
+  color: #000000;
+  font-size: 5rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.blog{
+  text-decoration: underline;
+}
+
+.arrow{
+  font-size: 10rem;
+}
+
 
 footer {
   background-color: black;
@@ -448,6 +476,19 @@ footer {
     width: 100%;
   }
 
+  .wrap-profit {
+    flex-direction: column;
+  }
+  .wrap-meta{
+    flex-direction: column-reverse;
+  }
+
+  #profit-pc{
+    width: 100%;
+  }
+  #meta-pc {
+    width: 100%;
+  }
 
   .contato img{
     width: 50%;
