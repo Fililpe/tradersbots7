@@ -5,6 +5,9 @@
     background-color: #fff;
     color: #697e91;
     max-width: 350px;
+    
+    /* add */
+    min-height: 670px;
   }
   
   .plan strong {
@@ -13,13 +16,18 @@
   }
   
   .plan .inner {
-    align-items: center;
     padding: 20px;
-    padding-top: 40px;
+    padding-top: 45px;
     background-color: #ecf0ff;
     border-radius: 12px;
     position: relative;
-    }
+    
+    /* add */
+    min-height: 670px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
   
   .plan .pricing {
     position: absolute;
@@ -96,7 +104,9 @@
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: end;
+
+    /* add */
+    margin-top: auto;
   }
   
   .plan .button {
